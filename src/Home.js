@@ -51,9 +51,11 @@ function Home() {
           <p>서울</p>
           
           
-          <button>
+          <Link to='/incheon'>
+         <button>
             <img alt="inc" src={inc}/>
           </button>
+         </Link>
           <p>인천</p>
           <button>
             <img alt="mop" src={mok}/>

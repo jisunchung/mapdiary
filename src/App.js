@@ -4,6 +4,7 @@ import Home from './Home'
 import Mail from "./Mail";
 import Seoul from "./Category/Seoul";
 import Busan from "./Busan";
+import Inc from "./Inc";
 
 function App() {
   return ( 
@@ -12,6 +13,7 @@ function App() {
       <Route path="/mail" element={<Mail/>}/>
       <Route path="/seoul" element={<Seoul/>}/>
       <Route path="/busan" element={<Busan/>}/>
+      <Route path="/incheon" element={<Inc/>}/>
       </Routes>
   )
 }
