@@ -12,7 +12,7 @@ import { MdMailOutline } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const goMessageBox = () => {alert('생일축하해!')}
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
@@ -84,4 +84,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
