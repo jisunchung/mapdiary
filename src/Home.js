@@ -43,7 +43,7 @@ function Home() {
         </Grid>
         <Grid item xs={6} sm={6}>
           <Box p={1}>
-         <Link to='/Seoul'>
+         <Link to='/seoul'>
          <button>
             <img alt="se" src={seoul}/>
           </button>
@@ -63,9 +63,11 @@ function Home() {
             <img alt="yeo" src={yeo}/>
           </button>
           <p>여수</p>
-          <button>
+          <Link to='/busan'>
+         <button>
             <img alt="busan" src={busan}/>
           </button>
+         </Link>
           <p>부산</p>
           <button>
             <img alt="jeju" src={jeju}/>
