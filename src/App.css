@@ -21,3 +21,10 @@
   font-size: 54px;
   z-index: 1;
 }
+.home{
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  z-index: 1;
+}

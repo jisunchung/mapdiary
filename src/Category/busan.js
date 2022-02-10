@@ -1,5 +1,5 @@
 import React from "react";
-import face from '../images/face2.jpeg';
+import '../App.css';
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Grid, Box } from "@material-ui/core";
@@ -18,7 +18,7 @@ import j from "../images/busan/11.jpeg"
 function Busan(){
     return(
         <div style={{backgroundColor:"#282c34",color:"white"}}>
-            <Link to="/">home</Link>
+            <Link className="home" style={{float:"right", padding:20}} to="/"><h1>← home</h1></Link>
             
     <Grid container spacing={1}>
 
