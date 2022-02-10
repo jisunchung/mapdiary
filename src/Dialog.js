@@ -14,7 +14,7 @@ const DarkBackground = styled.div`
 `;
 
 const DialogBlock = styled.div`
-  width: 320px;
+  width: 500px;
   padding: 1.5rem;
   background: white;
   border-radius: 2px;
@@ -33,15 +33,24 @@ const ButtonGroup = styled.div`
   justify-content: flex-end;
 `;
 
-function Dialog({ title, children, confirmText, cancelText }) {
+
+function Dialog({
+  title,
+  children,
+  confirmText,
+  onConfirm,
+  visible
+}) {
+  if (!visible) return null;
   return (
     <DarkBackground>
       <DialogBlock>
         <h3>{title}</h3>
         <p>{children}</p>
         <ButtonGroup>
-          <button color="gray">{cancelText}</button>
-          <button color="pink">{confirmText}</button>
+          <button color="pink" onClick={onConfirm}>
+            {confirmText}
+          </button>
         </ButtonGroup>
       </DialogBlock>
     </DarkBackground>

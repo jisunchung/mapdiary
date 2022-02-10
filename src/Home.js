@@ -10,12 +10,11 @@ import face from './images/face2.jpeg';
 import './App.css';
 import { Grid, Box, Hidden} from "@material-ui/core";
 import { MdMailOutline } from "react-icons/md";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import {Link} from 'react-router-dom'
 
-
 function Home() {
-  
+
   return (
     <div className="App">
       <header className="App-header">
@@ -29,12 +28,12 @@ function Home() {
           <p style={{float:'left',padding:10}}>Map diary</p>
         <Link to='/mail'><MdMailOutline style={{float:'right', padding:30}}/></Link>
             <div className="example-container">
-      <motion.div
+      {/* <motion.div
       whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
       <img alt='face' src={face} style={{float:'left', 
               borderRadius: '30px',width:'80px', 
               height:'80px',overflow:Hidden}}/>
-        </motion.div> 
+        </motion.div>  */}
     </div>
         </Grid>
         <Grid item xs={6} sm={6}>
@@ -44,21 +43,17 @@ function Home() {
         </Grid>
         <Grid item xs={6} sm={6}>
           <Box p={1}>
-          <motion.button
-            whileHover={{ scale: 3}}
-            whileTap={{ scale: 2 }}
-          >
-            <img alt="seoul" src={seoul}/>
-          </motion.button>
+         <Link to='/Seoul'>
+         <button>
+            <img alt="se" src={seoul}/>
+          </button>
+         </Link>
           <p>서울</p>
           
           
-          <motion.button
-            whileHover={{ scale: 1.5}}
-            whileTap={{ scale: 2 }}
-          >
+          <button>
             <img alt="inc" src={inc}/>
-          </motion.button>
+          </button>
           <p>인천</p>
           <button>
             <img alt="mop" src={mok}/>
