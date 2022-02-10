@@ -5,8 +5,6 @@ import Mail from "./Mail";
 import Seoul from "./Category/Seoul";
 import Busan from "./Category/Busan";
 
-
-
 function App() {
   return ( 
       <Routes>
