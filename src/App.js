@@ -1,4 +1,3 @@
-
 import map from './images/mapb.png';
 import seoul from './images/seoul.png';
 import inc from './images/inc.png';
@@ -10,6 +9,7 @@ import face from './images/face2.jpeg';
 import './App.css';
 import { Grid, Box, Hidden} from "@material-ui/core";
 import { MdMailOutline } from "react-icons/md";
+import { motion } from "framer-motion";
 
 const goMessageBox = () => {alert('생일축하해!')}
 function App() {
@@ -26,6 +26,14 @@ function App() {
           <p style={{float:'left',padding:10}}>Map diary</p>
           <MdMailOutline style={{float:'right', padding:30}}
             onClick={() => goMessageBox()}/>
+            <div className="example-container">
+      <motion.div
+      whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+      <img alt='face' src={face} style={{float:'left', 
+              borderRadius: '30px',width:'80px', 
+              height:'80px',overflow:Hidden}}/>
+        </motion.div> 
+    </div>
         </Grid>
         <Grid item xs={6} sm={6}>
           <Box p={2}>
@@ -34,13 +42,21 @@ function App() {
         </Grid>
         <Grid item xs={6} sm={6}>
           <Box p={1}>
-          <button>
+          <motion.button
+            whileHover={{ scale: 3}}
+            whileTap={{ scale: 2 }}
+          >
             <img alt="seoul" src={seoul}/>
-          </button>
+          </motion.button>
           <p>서울</p>
-          <button>
+          
+          
+          <motion.button
+            whileHover={{ scale: 1.5}}
+            whileTap={{ scale: 2 }}
+          >
             <img alt="inc" src={inc}/>
-          </button>
+          </motion.button>
           <p>인천</p>
           <button>
             <img alt="mop" src={mok}/>
@@ -58,10 +74,11 @@ function App() {
             <img alt="jeju" src={jeju}/>
           </button>
           <p>제주도</p>
+          
           </Box>
         </Grid>  
       </Grid>
-        
+      
       </header>
     </div>
   );
