@@ -3,7 +3,7 @@ import { Route, Routes} from 'react-router-dom'
 import Home from './Home'
 import Mail from "./Mail";
 import Seoul from "./Category/Seoul";
-import Busan from "./Category/Busan";
+import Busan from "./Busan";
 
 function App() {
   return ( 
