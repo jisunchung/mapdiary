@@ -37,8 +37,8 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
         <motion.div 
 whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='face' src={j} style={{float:"left",
-              width:'280px', 
-              height:'350px',}}/>
+              width:'300px', 
+              height:'370px',}}/>
         </motion.div> 
         </Box>
       </Grid>
@@ -47,7 +47,7 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
         <motion.div 
 whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='face' src={c} style={{float:"left",
-              width:'350px', 
+              width:'300px', 
               height:'400px',}}/>
         </motion.div> 
         </Box>
@@ -57,7 +57,7 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
         <motion.div 
 whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
       <img alt='face' src={h} style={{float:"left",
-              width:'250px', 
+              width:'270px', 
               height:'370px',}}/>
         </motion.div>
         </Box>
@@ -98,8 +98,8 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
         <motion.div 
 whileHover={{ scale: 2}} whileTap={{ scale: 0.9 }}>
       <img alt='face' src={g} style={{float:"right",
-              width:'320px', 
-              height:'220px',}}/>
+              width:'350px', 
+              height:'250px',}}/>
         </motion.div>
         </Box>
       </Grid>
@@ -108,8 +108,8 @@ whileHover={{ scale: 2}} whileTap={{ scale: 0.9 }}>
         <motion.div 
 whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='face' src={a} style={{float:"left",
-              width:'300px', 
-              height:'200px',}}/>
+              width:'320px', 
+              height:'250px',}}/>
         </motion.div>
         </Box>
       </Grid>
