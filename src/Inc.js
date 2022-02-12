@@ -8,12 +8,23 @@ import b from "./images/incheon/2.jpeg"
 import c from "./images/incheon/3.jpeg"
 import d from "./images/incheon/4.jpeg"
 
+const FontStyle = {
+  fontSize: '100px',
+  textAlign: 'center',
+  position: 'fixed',
+  bottom: '-100px',
+  zIndex: 1,
+  color:' #f9fbf8',
+  left: '50%',
+  transform: 'translateX(-50%)',
+  pointerEents: 'none',
+}
 
 function Inc(){
     return(
         <div style={{backgroundColor:"#282c34",color:"white"}}>
             <Link className="home" style={{float:"right", padding:20}} to="/"><h1>← home</h1></Link>
-            
+            <h1 style={FontStyle}>INCHEON</h1>
             
     <Grid container spacing={1}>
 
@@ -23,8 +34,8 @@ function Inc(){
         <motion.div 
 whileHover={{ scale: 1.3}} whileTap={{ scale: 0.9 }}>
       <img alt='face' src={c} style={{float:"right",
-              width:'300px', 
-              height:'330px',}}/>
+              width:'350px', 
+              height:'390px',}}/>
         </motion.div>
         </Box>
       </Grid>
@@ -33,8 +44,8 @@ whileHover={{ scale: 1.3}} whileTap={{ scale: 0.9 }}>
         <motion.div 
 whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
         <img alt='face' src={a} style={{float:"left",
-              width:'300px', 
-              height:'330px',}}/>
+              width:'350px', 
+              height:'400px',}}/>
               </motion.div>
         </Box>
       </Grid>

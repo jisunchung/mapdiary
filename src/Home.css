@@ -1,0 +1,11 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    position: fixed;
+    bottom: -100px;
+    z-index: 1;
+    color: #f9fbf8;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+  }

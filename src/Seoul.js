@@ -34,11 +34,23 @@ import bb from "./images/seoul/bb.jpeg"
 import cc from "./images/seoul/cc.jpeg"
 import dd from "./images/seoul/dd.jpeg"
 
+const FontStyle = {
+  fontSize: '100px',
+  textAlign: 'center',
+  position: 'fixed',
+  bottom: '-100px',
+  zIndex: 1,
+  color:' #f9fbf8',
+  left: '50%',
+  transform: 'translateX(-50%)',
+  pointerEents: 'none',
+}
+
 function Seoul(){
   return(
       <div style={{backgroundColor:"#282c34",color:"white"}}>
           <Link className="home" style={{float:"right", padding:20}} to="/"><h1>← home</h1></Link>
-          
+          <h1 style={FontStyle}>SEOUL</h1>
           
           <Grid container spacing={1}>
       <Grid item xs={6} sm={3}>

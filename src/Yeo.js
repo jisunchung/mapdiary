@@ -15,7 +15,6 @@ import i from "./images/yeo/i.jpeg"
 import j from "./images/yeo/j.jpeg"
 import k from "./images/yeo/k.jpeg"
 import l from "./images/yeo/l.jpeg"
-import m from "./images/yeo/m.jpeg"
 import n from "./images/yeo/n.jpeg"
 import o from "./images/yeo/o.jpeg"
 import p from "./images/yeo/p.jpeg"
@@ -24,11 +23,23 @@ import r from "./images/yeo/r.jpeg"
 import s from "./images/yeo/s.jpeg"
 import t from "./images/yeo/t.jpeg"
 
+const FontStyle = {
+    fontSize: '100px',
+    textAlign: 'center',
+    position: 'fixed',
+    bottom: '-100px',
+    zIndex: 1,
+    color:' #f9fbf8',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    pointerEents: 'none',
+  }
+
 function Yeo(){
     return(
         <div style={{backgroundColor:"#282c34",color:"white"}}>
             <Link className="home" style={{float:"right", padding:20}} to="/"><h1>← home</h1></Link>
-            
+            <h1 style={FontStyle}>YEOSU</h1>
             
     <Grid container spacing={1}>
         <Grid item xs={6} sm={6}>
@@ -51,13 +62,14 @@ function Yeo(){
         </motion.div> 
         </Box>
       </Grid>
+      {/*  */}
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
         whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='c' src={c} style={{float:"left",
               width:'350px', 
-              height:'300px',}}/>
+              height:'250px',}}/>
         </motion.div> 
         </Box>
       </Grid>
@@ -72,28 +84,19 @@ function Yeo(){
         </Box>
       </Grid>
      
-      {/*  */}
+
      
-      <Grid item xs={6} sm={3}>
+      <Grid item xs={6} sm={6}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
         whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='e' src={a} style={{float:"right",
-              width:'320px', 
-              height:'200px',}}/>
-        </motion.div> 
-        </Box>
-      </Grid>
-      <Grid item xs={6} sm={3}>
-        <Box color="info.contrastText" p={2}>
-        <motion.div 
-        whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='f' src={f} style={{float:"left",
-              width:'310px', 
+              width:'650px', 
               height:'300px',}}/>
         </motion.div> 
         </Box>
       </Grid>
+
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
@@ -114,7 +117,7 @@ function Yeo(){
         </motion.div>
         </Box>
       </Grid>
-      {/*  */}
+  
 
       <Grid item xs={6} sm={3}>
         <Box color="info.contrastText" p={2}>
@@ -136,6 +139,7 @@ function Yeo(){
         </motion.div> 
         </Box>
       </Grid>
+      {/*  */}
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
@@ -156,13 +160,13 @@ function Yeo(){
         </motion.div>
         </Box>
       </Grid>
-      {/*  */}
+
 
       <Grid item xs={6} sm={3}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='m' src={m} style={{float:"right",
+      <img alt='m' src={f} style={{float:"right",
               width:'350px', 
               height:'250px',}}/>
         </motion.div> 
@@ -178,6 +182,7 @@ function Yeo(){
         </motion.div> 
         </Box>
       </Grid>
+      {/*  */}
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
