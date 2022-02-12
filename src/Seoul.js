@@ -113,7 +113,7 @@ function Seoul(){
           whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
     <img alt='i' src={i} style={{float:"right",
             width:'310px', 
-            height:'300px',}}/>
+            height:'380px',}}/>
       </motion.div> 
       </Box>
     </Grid>
@@ -133,7 +133,7 @@ function Seoul(){
           whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
     <img alt='k' src={k} style={{float:"left",
             width:'300px', 
-            height:'300px',}}/>
+            height:'350px',}}/>
       </motion.div> 
       </Box>
     </Grid>
@@ -187,7 +187,7 @@ function Seoul(){
           whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
     <img alt='n' src={q} style={{float:"left",
             width:'350px', 
-            height:'350px',}}/>
+            height:'380px',}}/>
       </motion.div> 
       </Box>
     </Grid>
@@ -207,7 +207,7 @@ function Seoul(){
           whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
     <img alt='p' src={p} style={{float:"left",
             width:'300px', 
-            height:'350px',}}/>
+            height:'380px',}}/>
       </motion.div>
       </Box>
     </Grid>
@@ -280,7 +280,7 @@ function Seoul(){
           whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
     <img alt='s' src={dd} style={{float:"left",
             width:'350px', 
-            height:'300px',}}/>
+            height:'250px',}}/>
       </motion.div> 
       </Box>
     </Grid>
@@ -289,8 +289,8 @@ function Seoul(){
       <motion.div 
           whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
     <img alt='t' src={x} style={{float:"left",
-            width:'300px', 
-            height:'300px',}}/>
+            width:'320px', 
+            height:'400px',}}/>
       </motion.div>
       </Box>
     </Grid>
@@ -299,8 +299,8 @@ function Seoul(){
       <motion.div 
       whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
     <img alt='e' src={e} style={{float:"right",
-            width:'320px', 
-            height:'220px',}}/>
+            width:'350px', 
+            height:'250px',}}/>
       </motion.div> 
       </Box>
     </Grid>
@@ -309,8 +309,8 @@ function Seoul(){
       <motion.div 
       whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
     <img alt='f' src={v} style={{float:"left",
-            width:'350px', 
-            height:'300px',}}/>
+            width:'320px', 
+            height:'350px',}}/>
       </motion.div> 
       </Box>
     </Grid>
@@ -321,7 +321,7 @@ function Seoul(){
           whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
     <img alt='q' src={y} style={{float:"right",
             width:'310px', 
-            height:'300px',}}/>
+            height:'430px',}}/>
       </motion.div> 
       </Box>
     </Grid>
@@ -341,7 +341,7 @@ function Seoul(){
           whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
     <img alt='s' src={aa} style={{float:"left",
             width:'350px', 
-            height:'400px',}}/>
+            height:'420px',}}/>
       </motion.div> 
       </Box>
     </Grid>

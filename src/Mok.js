@@ -112,7 +112,7 @@ function Mok(){
             whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
       <img alt='h' src={h} style={{float:"left",
               width:'300px', 
-              height:'300px',}}/>
+              height:'400px',}}/>
         </motion.div>
         </Box>
       </Grid>
@@ -123,8 +123,8 @@ function Mok(){
         <motion.div 
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='i' src={i} style={{float:"right",
-              width:'310px', 
-              height:'300px',}}/>
+              width:'320px', 
+              height:'350px',}}/>
         </motion.div> 
         </Box>
       </Grid>
@@ -133,8 +133,8 @@ function Mok(){
         <motion.div 
         whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='j' src={j} style={{float:"left",
-              width:'310px', 
-              height:'300px',}}/>
+              width:'350px', 
+              height:'350px',}}/>
         </motion.div> 
         </Box>
       </Grid>
@@ -166,7 +166,7 @@ function Mok(){
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='m' src={o} style={{float:"right",
               width:'310px', 
-              height:'320px',}}/>
+              height:'350px',}}/>
         </motion.div> 
         </Box>
       </Grid>

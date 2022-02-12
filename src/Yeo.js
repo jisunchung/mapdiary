@@ -31,17 +31,17 @@ function Yeo(){
             
             
     <Grid container spacing={1}>
-        <Grid item xs={6} sm={3}>
+        <Grid item xs={6} sm={6}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-            <img alt='a' src={a} style={{float:"right",
-              width:'310px', 
-              height:'200px',}}/>
+            <img alt='a' src={e} style={{float:"right",
+              width:'500px', 
+              height:'300px',}}/>
         </motion.div> 
         </Box>
       </Grid>
-      <Grid item xs={6} sm={3}>
+      <Grid item xs={6} sm={6}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
         whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
@@ -66,8 +66,8 @@ function Yeo(){
         <motion.div 
         whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
       <img alt='d' src={d} style={{float:"left",
-              width:'200px', 
-              height:'300px',}}/>
+              width:'350px', 
+              height:'250px',}}/>
         </motion.div>
         </Box>
       </Grid>
@@ -78,8 +78,8 @@ function Yeo(){
         <Box color="info.contrastText" p={2}>
         <motion.div 
         whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='e' src={e} style={{float:"right",
-              width:'310px', 
+      <img alt='e' src={a} style={{float:"right",
+              width:'320px', 
               height:'200px',}}/>
         </motion.div> 
         </Box>
@@ -109,7 +109,7 @@ function Yeo(){
         <motion.div 
             whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
       <img alt='h' src={h} style={{float:"left",
-              width:'200px', 
+              width:'300px', 
               height:'300px',}}/>
         </motion.div>
         </Box>
@@ -121,8 +121,8 @@ function Yeo(){
         <motion.div 
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='i' src={i} style={{float:"right",
-              width:'310px', 
-              height:'200px',}}/>
+              width:'360px', 
+              height:'250px',}}/>
         </motion.div> 
         </Box>
       </Grid>
@@ -131,7 +131,7 @@ function Yeo(){
         <motion.div 
         whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='j' src={j} style={{float:"left",
-              width:'310px', 
+              width:'320px', 
               height:'300px',}}/>
         </motion.div> 
         </Box>
@@ -151,8 +151,8 @@ function Yeo(){
         <motion.div 
             whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
       <img alt='l' src={l} style={{float:"left",
-              width:'200px', 
-              height:'300px',}}/>
+              width:'300px', 
+              height:'400px',}}/>
         </motion.div>
         </Box>
       </Grid>
@@ -163,8 +163,8 @@ function Yeo(){
         <motion.div 
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='m' src={m} style={{float:"right",
-              width:'310px', 
-              height:'200px',}}/>
+              width:'350px', 
+              height:'250px',}}/>
         </motion.div> 
         </Box>
       </Grid>
@@ -174,7 +174,7 @@ function Yeo(){
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='n' src={n} style={{float:"left",
               width:'310px', 
-              height:'300px',}}/>
+              height:'360px',}}/>
         </motion.div> 
         </Box>
       </Grid>
@@ -193,8 +193,8 @@ function Yeo(){
         <motion.div 
             whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
       <img alt='p' src={p} style={{float:"left",
-              width:'200px', 
-              height:'300px',}}/>
+              width:'300px', 
+              height:'370px',}}/>
         </motion.div>
         </Box>
       </Grid>
@@ -205,8 +205,8 @@ function Yeo(){
         <motion.div 
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <img alt='q' src={q} style={{float:"right",
-              width:'310px', 
-              height:'200px',}}/>
+              width:'350px', 
+              height:'350px',}}/>
         </motion.div> 
         </Box>
       </Grid>
@@ -214,29 +214,29 @@ function Yeo(){
         <Box color="info.contrastText" p={2}>
         <motion.div 
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='r' src={r} style={{float:"left",
-              width:'310px', 
-              height:'300px',}}/>
+      <img alt='r' src={s} style={{float:"left",
+              width:'320px', 
+              height:'320px',}}/>
         </motion.div> 
         </Box>
       </Grid>
-      <Grid item xs={6} sm={3}>
+      <Grid item xs={6} sm={6}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
             whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='s' src={s} style={{float:"left",
-              width:'350px', 
-              height:'300px',}}/>
+      <img alt='s' src={r} style={{float:"right",
+              width:'600px', 
+              height:'450px',}}/>
         </motion.div> 
         </Box>
       </Grid>
-      <Grid item xs={6} sm={3}>
+      <Grid item xs={6} sm={6}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
             whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
       <img alt='t' src={t} style={{float:"left",
-              width:'200px', 
-              height:'300px',}}/>
+              width:'600px', 
+              height:'500px',}}/>
         </motion.div>
         </Box>
       </Grid>
