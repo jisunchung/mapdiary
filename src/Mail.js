@@ -18,6 +18,7 @@ function Mail(){
   
   const Check = () =>{
     if(parseInt(password) === Number){
+      alert("열렸습니다! 생일을 축하드립니다^^")
       setShow(true)
     }
     else {

@@ -5,6 +5,8 @@ import Mail from "./Mail";
 import Seoul from "./Category/Seoul";
 import Busan from "./Busan";
 import Inc from "./Inc";
+import Jeju from "./Jeju";
+import Mok from "./Mok"
 
 function App() {
   return ( 
@@ -14,6 +16,8 @@ function App() {
       <Route path="/seoul" element={<Seoul/>}/>
       <Route path="/busan" element={<Busan/>}/>
       <Route path="/incheon" element={<Inc/>}/>
+      <Route path="/jeju" element={<Jeju/>}/>
+      <Route path="/mokpo" element={<Mok/>}/>
       </Routes>
   )
 }

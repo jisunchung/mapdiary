@@ -17,8 +17,8 @@ function Seoul(){
       <Grid item xs={6} sm={3}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"right",
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"right",
               width:'310px', 
               height:'200px',}}/>
         </motion.div> 
@@ -27,8 +27,8 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <Grid item xs={6} sm={3}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"left",
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
               width:'310px', 
               height:'300px',}}/>
         </motion.div> 
@@ -37,8 +37,8 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"left",
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
               width:'350px', 
               height:'300px',}}/>
         </motion.div> 
@@ -47,29 +47,20 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <Grid item xs={6} sm={3}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"left",
+            whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
               width:'200px', 
               height:'300px',}}/>
         </motion.div>
         </Box>
       </Grid>
      
-      {/* <Grid item xs={12} sm={6}>
-        <Box bgcolor="info.main" color="info.contrastText" p={2}>
-          2
-        </Box>
-      </Grid>
-      <Grid item xs={12} sm={6}>
-        <Box bgcolor="info.main" color="info.contrastText" p={2}>
-          3
-        </Box>
-      </Grid> */}
+      {/*  */}
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"right",
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"right",
               width:'300px', 
               height:'220px',}}/>
         </motion.div>
@@ -78,8 +69,8 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"left",
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
               width:'320px', 
               height:'250px',}}/>
         </motion.div>
@@ -88,8 +79,8 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 2}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"right",
+            whileHover={{ scale: 2}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"right",
               width:'320px', 
               height:'220px',}}/>
         </motion.div>
@@ -98,35 +89,138 @@ whileHover={{ scale: 2}} whileTap={{ scale: 0.9 }}>
       <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"left",
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
               width:'300px', 
               height:'150px',}}/>
         </motion.div>
         </Box>
       </Grid>
-
-      <Grid item xs={6} sm={6}>
+      {/*  */}
+      <Grid item xs={6} sm={3}>
+        <Box color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"right",
+              width:'310px', 
+              height:'200px',}}/>
+        </motion.div> 
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Box color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
+              width:'310px', 
+              height:'300px',}}/>
+        </motion.div> 
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
         <Box  color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"right",
-              width:'500px', 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
+              width:'350px', 
+              height:'300px',}}/>
+        </motion.div> 
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Box color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
+              width:'200px', 
+              height:'300px',}}/>
+        </motion.div>
+        </Box>
+      </Grid>
+     
+      {/*  */}
+      <Grid item xs={6} sm={3}>
+        <Box  color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"right",
+              width:'300px', 
+              height:'220px',}}/>
+        </motion.div>
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Box  color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
+              width:'320px', 
+              height:'250px',}}/>
+        </motion.div>
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Box  color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 2}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"right",
+              width:'320px', 
+              height:'220px',}}/>
+        </motion.div>
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Box  color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
+              width:'300px', 
               height:'150px',}}/>
         </motion.div>
         </Box>
       </Grid>
-      <Grid item xs={6} sm={6}>
+{/*  */}
+<Grid item xs={6} sm={3}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
-whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={face} style={{float:"left",
-              width:'500px', 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"right",
+              width:'310px', 
               height:'200px',}}/>
+        </motion.div> 
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Box color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
+              width:'310px', 
+              height:'300px',}}/>
+        </motion.div> 
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Box  color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
+              width:'350px', 
+              height:'300px',}}/>
+        </motion.div> 
+        </Box>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Box color="info.contrastText" p={2}>
+        <motion.div 
+            whileHover={{ scale: 1.9}} whileTap={{ scale: 0.9 }}>
+            <img alt='face' src={face} style={{float:"left",
+              width:'200px', 
+              height:'300px',}}/>
         </motion.div>
         </Box>
       </Grid>
-      
+     
     </Grid>
    
         </div>

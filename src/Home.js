@@ -57,9 +57,11 @@ function Home() {
           </button>
          </Link>
           <p>인천</p>
-          <button>
-            <img alt="mop" src={mok}/>
+          <Link to='/mokpo'>
+         <button>
+            <img alt="mok" src={mok}/>
           </button>
+         </Link>
           <p> 목포</p>
           <button>
             <img alt="yeo" src={yeo}/>
@@ -71,9 +73,11 @@ function Home() {
           </button>
          </Link>
           <p>부산</p>
-          <button>
+          <Link to='/jeju'>
+         <button>
             <img alt="jeju" src={jeju}/>
           </button>
+         </Link>
           <p>제주도</p>
           
           </Box>
