@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Grid, Box } from "@material-ui/core";
 import a from "./images/busan/1.jpeg"
-import b from "./images/busan/2.jpeg"
 import c from "./images/busan/3.jpeg"
 import d from "./images/busan/4.jpeg"
 import e from "./images/busan/5.jpeg"
@@ -13,6 +12,7 @@ import g from "./images/busan/7.jpeg"
 import h from "./images/busan/8.jpeg"
 import i from "./images/busan/10.jpeg"
 import j from "./images/busan/11.jpeg"
+import photoism from "./images/busan/phtoism.png"
 
 
 function Busan(){
@@ -36,8 +36,8 @@ whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
         <Box color="info.contrastText" p={2}>
         <motion.div 
 whileHover={{ scale: 1.5}} whileTap={{ scale: 0.9 }}>
-      <img alt='face' src={b} style={{float:"left",
-              width:'310px', 
+      <img alt='face' src={photoism} style={{float:"left",
+              width:'280px', 
               height:'300px',}}/>
         </motion.div> 
         </Box>
