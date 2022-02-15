@@ -61,11 +61,7 @@ function Mail() {
       <motion.div className="back">
         <Link to="/">← Home</Link>
       </motion.div>
-      {show && (
-        <MailBlock>
-          <MailTemplate />
-        </MailBlock>
-      )}
+      {show && <MailTemplate />}
     </div>
   );
 }
