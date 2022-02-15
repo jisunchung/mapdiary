@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MailTemplate from "./MailTemplate";
-import styled, { createGlobalStyle, keyframes } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 import { motion } from "framer-motion";
 import "./App.css";
 
-const slidUp = keyframes`
-    from {
-        transform: translateY(200px)
-    }
-    to {
-        transform: translateY(0px);
-    }
-`;
+// const slidUp = keyframes`
+//     from {
+//         transform: translateY(200px)
+//     }
+//     to {
+//         transform: translateY(0px);
+//     }
+// `;
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -21,12 +21,12 @@ const GlobalStyle = createGlobalStyle`
   
 `;
 
-const MailBlock = styled.div`
-  animation-duration: 0.25s;
-  animation-timing-function: ease-out;
-  animation-name: ${slidUp};
-  animation-fill-mode: forwards;
-`;
+// const MailBlock = styled.div`
+//   animation-duration: 0.25s;
+//   animation-timing-function: ease-out;
+//   animation-name: ${slidUp};
+//   animation-fill-mode: forwards;
+// `;
 
 function Mail() {
   const Number = 11;
