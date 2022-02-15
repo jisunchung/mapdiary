@@ -48,7 +48,14 @@ const FontStyle = {
 
 function Seoul() {
   return (
-    <div style={{ backgroundColor: "#282c34", color: "white" }}>
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        backgroundColor: "#282c34",
+        color: "white",
+      }}
+    >
       <Link className="home" style={{ float: "right", padding: 20 }} to="/">
         <h1>← home</h1>
       </Link>
